@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For VESCBrushlessMotor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+VESCBrushlessMotor	KEYWORD1	VESCBrushlessMotor
+VESC-BrushlessMotor	KEYWORD1	VESC-BrushlessMotor
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setMotorSpeed	KEYWORD2
+setMotorCurrent	KEYWORD2
+setMotorCurrentREL  KEYWORD2
+setMotorCurrentBrakeREL	KEYWORD2
+setMotorCurrentBrake	KEYWORD2
+setMotorCurrentHandBrake	KEYWORD2
+setMotorCurrentREL	KEYWORD2
+initCanBus	KEYWORD2
+setMotorDuty	KEYWORD2
+PollCanBus	KEYWORD2
+getMotorSpeed	KEYWORD2
+getMotorCurrent	KEYWORD2
+getMotorDutyCycle	KEYWORD2
+setMotorPosition    KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
