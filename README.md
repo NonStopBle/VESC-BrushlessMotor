@@ -13,12 +13,16 @@ The VESC-BrushlessMotor library allows communication with the VESC Brushless Con
 ```cpp
 #include <VESC-BrushlessMotor.h>
 
+// Define Canbus ports number
+#define CAN_NUMBER CAN1
+
 // Define the VESC motor object with the VESC ID
 VESCBrushlessMotor Motor_A(110);
 
 void setup() {
   // Initialize the canbus for the motor
-  Motor_A.initCanBus();
+  // By default baudrate has been set at 1000000 bps and 16 MailBox
+  Motor_A.initCanBus(1000000 , 16);
 }
 
 void loop() {
