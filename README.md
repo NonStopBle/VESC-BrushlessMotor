@@ -67,4 +67,4 @@ void loop() {
 
 
 # Starting and Stopping the VESC-BrushlessMotor
-## To start the VESC-BrushlessMotor, you'll need to connect it to a power
+To start the VESC-BrushlessMotor, you'll need to connect it to a power
