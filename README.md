@@ -58,13 +58,13 @@ void loop() {
 - `VESCBrushlessMotor(uint16_t vescID)` - Constructor function that initializes a new VESCBrushlessMotor object with the specified VESC ID.
 - `initCanBus()` - Initializes the CAN bus communication.
 - `PollCanBus()` - Polls the CAN bus for incoming data.
-- `setMotorSpeed(int_32t speed)` - Sets the motor speed in RPM (revolutions per minute).
-- `setMotorCurrent(int_16t current)` - Sets the motor current in A (amperes).
-- `setMotorCurrentREL(int_16t current)` - Sets the motor current in relative units, ranging from -1 to 1.
-- `setMotorCurrentBrake(int_16t current)` - Sets the motor current in A (amperes) for the brake.
-- `setMotorCurrentBrakeREL(int_16t current)` - Sets the motor current in relative units, ranging from -1 to 1, for the brake.
-- `setMotorCurrentHandBrake(int_16t current)` - Sets the motor current in A (amperes) for the handbrake.
-- `setMotorDuty(int_16t duty)` - Sets the motor duty cycle in % (percentage).
+- `setMotorSpeed(int32_t speed)` - Sets the motor speed in RPM (revolutions per minute).
+- `setMotorCurrent(int16_t current)` - Sets the motor current in A (amperes).
+- `setMotorCurrentREL(int16_t current)` - Sets the motor current in relative units, ranging from -1 to 1.
+- `setMotorCurrentBrake(int16_t current)` - Sets the motor current in A (amperes) for the brake.
+- `setMotorCurrentBrakeREL(int16_t current)` - Sets the motor current in relative units, ranging from -1 to 1, for the brake.
+- `setMotorCurrentHandBrake(int16_t current)` - Sets the motor current in A (amperes) for the handbrake.
+- `setMotorDuty(int16_t duty)` - Sets the motor duty cycle in % (percentage).
 - `getMotorSpeed()` - Returns the current motor speed in RPM (revolutions per minute).
 - `getMotorCurrent()` - Returns the current motor current in A (amperes).
 - `getMotorDutyCycle()` - Returns the current motor duty cycle in % (percentage).
