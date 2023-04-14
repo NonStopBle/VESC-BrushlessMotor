@@ -65,5 +65,6 @@ void loop() {
 - `getMotorCurrent()` - Returns the current motor current in A (amperes).
 - `getMotorDutyCycle()` - Returns the current motor duty cycle in % (percentage).
 
-#Starting and Stopping the VESC-BrushlessMotor
-##To start the VESC-BrushlessMotor, you'll need to connect it to a power
+
+# Starting and Stopping the VESC-BrushlessMotor
+## To start the VESC-BrushlessMotor, you'll need to connect it to a power
