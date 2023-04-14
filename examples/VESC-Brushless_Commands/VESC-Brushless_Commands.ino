@@ -1,7 +1,7 @@
-#include <VESC-BrushlessMotor.h>
-
 // Define Canbus ports number
 #define CAN_NUMBER CAN1
+
+#include <VESC-BrushlessMotor.h>
 
 // Define the VESC motor object with the VESC ID
 VESCBrushlessMotor Motor_A(110);
